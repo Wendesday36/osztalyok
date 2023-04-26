@@ -1,3 +1,8 @@
+import  Szereplo from "./Szereplo.js";
+
+
 $(function(){
-    console.log("hello")
+    //példányositjuk
+    const szereplo1 = new Szereplo("János",1972)
+    console.log(szereplo1)
 })
