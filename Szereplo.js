@@ -16,7 +16,12 @@ class Szereplo {
     this.szereploElem=$(".szereplo:last-child")
     //rakattintok az aktualis div-re
     console.log(this.szereploElem)
-    this.szereploElem.on("click",function(){
+ /*    this.szereploElem.on("click",function(){
+        //function esetén a this az esemény kiválto elemre mutat
+        console.log(this.nev)
+    }) */
+
+    this.szereploElem.on("click",()=>{
         //function esetén a this az esemény kiválto elemre mutat
         console.log(this.nev)
     })
